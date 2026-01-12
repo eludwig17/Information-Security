@@ -2,27 +2,22 @@
 
 [![License](https://img.shields.io/github/license/eludwig17/Information-Security)](https://github.com/eludwig17/Information-Security/blob/main/LICENSE) [![Top Language](https://img.shields.io/github/languages/top/eludwig17/Information-Security)](https://github.com/eludwig17/Information-Security) [![Open Issues](https://img.shields.io/github/issues/eludwig17/Information-Security)](https://github.com/eludwig17/Information-Security/issues) [![Last Commit](https://img.shields.io/github/last-commit/eludwig17/Information-Security)](https://github.com/eludwig17/Information-Security/commits/main)
 
-This repository is intended for education, experimentation, and reference — not for drop-in production use. These are files programmed by me for my information Security Course at Concordia University Irvine which I learned the fundamentals of information & cyber security that covered the topics of historical, modern cryptography, and computer system security.
+This repository is intended for education, experimentation, and reference; not for production usage. These are files programmed by me for my information Security Course at Concordia University Irvine which I learned the fundamentals of information & cyber security that covered the topics of historical, modern cryptography, and computer system security.
 
 ---
 
 Table of contents
+
 - About
-- Quick badges & links
-- Implementations (by directory) — direct file links
-- License
+- Code
 
 ---
 
 About
 This repository contains several Python implementations and demonstrations of encryption-related algorithms (DES family, RSA, and GNU Privacy Guard related utilities). Each script is documented in-code and demonstrates algorithm internals and test vectors for learning.
 
-Badges & links
-- Repository: https://github.com/eludwig17/Information-Security
-- License: MIT — https://github.com/eludwig17/Information-Security/blob/main/LICENSE
-- Language: Python
 
-Implemented code 
+Code files 
 
 DES (classic DES / 3DES implementations and tests)
 - [DES/TDES.py](https://github.com/eludwig17/Information-Security/blob/main/DES/TDES.py) — Triple DES (3DES) implementation.
@@ -46,9 +41,6 @@ GNU Privacy Guard Project (GPG-related scripts / 3DES & helpers)
 - [GNU Privacy Guard Project/des_constants_subkey_tables.py](https://github.com/eludwig17/Information-Security/blob/main/GNU%20Privacy%20Guard%20Project/des_constants_subkey_tables.py) — Subkey schedule constants (GPG folder variant).
 - [GNU Privacy Guard Project/gpg_consts.py](https://github.com/eludwig17/Information-Security/blob/main/GNU%20Privacy%20Guard%20Project/gpg_consts.py) — GPG-related constants and helper definitions.
 - [GNU Privacy Guard Project/gpg_decrypt.py](https://github.com/eludwig17/Information-Security/blob/main/GNU%20Privacy%20Guard%20Project/gpg_decrypt.py) — Example script exploring GPG-style decryption flows.
-
-Other
-- [LICENSE](https://github.com/eludwig17/Information-Security/blob/main/LICENSE) — MIT License.
 
 License
 This project is licensed under the MIT License. See [LICENSE](https://github.com/eludwig17/Information-Security/blob/main/LICENSE) for details.
